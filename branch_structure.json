@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-40-update-certificate-metadata-panics-for-frozen",
+    "fix/issue-43-certificate-verification-codes-and-ids-are",
+    "fix/issue-44-certificate-verification-checks-status-but-not",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-40-update-certificate-metadata-panics-for-frozen": "main",
+    "fix/issue-43-certificate-verification-codes-and-ids-are": "main",
+    "fix/issue-44-certificate-verification-checks-status-but-not": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-40-update-certificate-metadata-panics-for-frozen",
+    "fix/issue-43-certificate-verification-codes-and-ids-are",
+    "fix/issue-44-certificate-verification-checks-status-but-not",
+    "origin"
+  ]
+}
